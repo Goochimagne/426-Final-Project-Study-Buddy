@@ -1,0 +1,21 @@
+Users
+	uid: INT Primary Key
+	first: varchar(50)
+	last: varchar(50)
+	email: varchar(50)
+	password: varchar(50)
+
+Classes
+	cid: INT Primary Key
+	name: varchar(50)
+	number: varchar(50)
+	depo: varchar(50)
+
+Position
+	lid: INT Primary Key
+	latitude: float(30,26)
+	longitude: float(30,26)
+
+Marker
+	uid: foreign key to Users
+	lid: foreign key to Users

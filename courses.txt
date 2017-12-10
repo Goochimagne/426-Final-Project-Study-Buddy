@@ -1,0 +1,36 @@
+COMP 101 001 Fluency in Information Technology
+COMP 110H 001 Introduction to Programming
+COMP 110 002 Introduction to Programming
+COMP 116 001 Introduction to Scientific Programming
+COMP 126 001 Practical Web Design & Development for Everyone
+COMP 222 001 ACM Programming Competition Practice
+COMP 227 001 Peer Teaching in COMP
+COMP 283 001 Discrete Structures
+COMP 380 002 Introduction to Digital Culture
+COMP 401 001 Foundation of Programming
+COMP 401H 001	Foundation of Programming
+COMP 410 001 Data Structures
+COMP 411 001 Computer Organization
+COMP 426 001 Modern Web Programming
+COMP 433 001 Mobile Computing Systems
+COMP 435 001 Computer Security Concepts
+COMP 455 001 Models of Languages & Computation
+COMP 475 001 2D Computer Graphics
+COMP 521 001 Files & Databases
+COMP 523 001 Software Engineering Lab
+COMP 530 001 Operating Systems
+COMP 530H 001 Operating Systems-HONORS
+COMP 541 001 Digital Logic & Computer Design
+COMP 550 001 Algorithms & Analysis
+COMP 581 001 Introduction to Robotics
+COMP 633 001 Parallel & Distributed Computing
+COMP 635 001 Wireless & Mobile Communications
+COMP 655 001 Cryptography
+COMP 737 001 Real-Time Systems
+COMP 750 001 Algorithm Analysis
+COMP 775 001 Image Processing & Analysis
+COMP 776 001 Computer Vision in our 3D World
+COMP 790 058 lti-Agent Simulation for Crowds & Autonomous Driving
+COMP 790 072 Cyber Manufacturing
+COMP 790 136 Mobile Computing Systems
+COMP 790 139 Natural Language Processing

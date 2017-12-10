@@ -1,0 +1,9 @@
+1. Fix dupe classes.
+
+2. Style course divs.
+
+? Uploading a picture icon?
+
+3. Attach class and user info to dropped pins by promptin user to select on dropping.
+
+4. Sort by classes.

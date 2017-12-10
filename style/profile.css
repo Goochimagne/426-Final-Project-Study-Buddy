@@ -1,0 +1,83 @@
+#avatar-wrap {
+	margin: 20px;
+	float: left;
+}
+
+#profile-info {
+	display: flex;
+}
+
+#info-div {
+	border: 2px solid blue;
+	border-radius: 30px;
+	text-align: center;
+	vertical-align: middle;
+	width: 60%;
+	margin: 20px;
+	padding: 50px;
+}
+
+#add-class {
+	display: none;
+}
+
+#plus {
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+}
+
+#add-button {
+	padding-top: 1px;
+	font-size: 20px;
+	line-height: 1;
+
+}
+
+#btn-wrap {
+	margin: 30px;
+	margin-left: 80px;
+	float:left;
+	position: relative;
+	top: 5px;
+}
+
+#submit-btn {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	left: 110%;
+	bottom: 43%;
+	line-height: 1;
+}
+
+
+label {
+	display: flex;
+	justify-content: space-around;
+	display: flex;
+}
+
+
+#form-clm {
+	display: inline-flex;
+	width: 100%;
+}
+
+.course {
+	width: 25%;
+	height: 25%;
+	padding: 40px;
+	margin: 20px;
+	display: flex;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 30px;
+	font-size: 30px
+}
+
+#classes {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
