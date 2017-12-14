@@ -1,17 +1,17 @@
-Users
+User
 	uid: INT Primary Key
-	first: varchar(50)
-	last: varchar(50)
-	email: varchar(50)
-	password: varchar(50)
+	first: varchar(25)
+	last: varchar(25)
+	email: varchar(25)
+	password: varchar(20)
 
-Classes
+Course
 	cid: INT Primary Key
 	name: varchar(50)
-	number: varchar(50)
-	depo: varchar(50)
+	number: varchar(5)
+	depo: varchar(5)
 
-Position
+Location
 	lid: INT Primary Key
 	latitude: float(30,26)
 	longitude: float(30,26)
@@ -19,3 +19,9 @@ Position
 Marker
 	uid: foreign key to Users
 	lid: foreign key to Users
+	cid: foreign Course
+	time: timestamp DEFAULT
+
+Enrolled
+	cid: foreign Course
+	uid: foreign User
