@@ -27,7 +27,7 @@ $conn->query("INSERT INTO User (first, last, email, password) values ('"
 				. $conn->real_escape_string($first) . "', '"
 				. $conn->real_escape_string($last) . "', '"
 				. $conn->real_escape_string($email) . "', '"
-				. $conn->real_escape_string($pwd) . "')");
+				. $conn->real_escape_string($pass) . "')");
 
 $uid = $conn->insert_id;
 echo "{$uid}";

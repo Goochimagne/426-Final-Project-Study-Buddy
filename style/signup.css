@@ -1,25 +1,33 @@
 body {
-	padding: 30px;
-	text-align: center;
-	justify-content: space-around;
-	display: flex;
-	flex-wrap: wrap;
+  padding: 30px;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 label {
-	display: flex;
-	justify-content: space-around;
-	display: flex;
-	padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  padding-top: 20px;
 }
 
-.form-group{
-}
+.form-group {}
 
 form {
-	width: 400px;
+  width: 400px;
 }
 
 .btn .btn-primary {
-	padding-top: 20px;
+  padding-top: 20px;
+}
+
+input:focus:invalid {
+    border:solid 2px #F5192F;
+}
+
+input:focus:valid {
+    border:solid 2px #18E109;
+    background-color:#fff;
 }

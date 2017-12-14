@@ -30,7 +30,7 @@ header("Location: ../pages/profile.html");
 
 
 if(!isset($_SESSION['userid'])) {
-	header("Location: ../pages/signup.html");
+	header("Location: ../pages/login.html");
 }
 
 ?>

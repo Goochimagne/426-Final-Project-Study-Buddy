@@ -3,6 +3,12 @@ include "../dbconfig/database.php";
 
 session_start();
 
+if(!isset($_SESSION['userid'])) {
+	header("Location: ../pages/login.html");
+}
+
+
+
 date_default_timezone_set('America/New_York');
 
 
@@ -42,9 +48,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 		$course = $_POST['delete'];
 
-		$cid = ($conn->query("SELECT cid from Course where num=" . $course))->fetch_row();
+		$cid = $conn->query("SELECT cid from Course where num=" . $course)->fetch_all();
 
-		$conn->query("DELETE from Enrolled where cid=" . $cid[0] . " and uid=" . $_SESSION['userid']);
+		$conn->query("DELETE from Enrolled where cid=" . $cid[0][0] . " and uid=" . $_SESSION['userid']);
 
 		exit();
 	} else if ($_POST['info'] != null) {
@@ -74,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 			}
 		echo json_encode($enrolled);
 		exit();
-	}
+	} 
 
 }
 
