@@ -1,4 +1,4 @@
-var gapi = "https://maps.googleapis.com/maps/api/js?key=AIzaSyABgy67H76t3Ru-wOvR1YhBXKa3fmJUl_w&callback=initMap";
+var gapi = "https://maps.googleapis.com/maps/api/js?key="INSERT KEY HERE"&callback=initMap";
 var map;
 var markers = [];
 var userName = ''
